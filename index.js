@@ -2,7 +2,7 @@ var express = require('express'),
 	app = express(),
 	bodyParser = require('body-parser'),
 	mongoose = require('mongoose'),
-	todoRoutes = require('routes/todos')
+	todoRoutes = require('./routes/todos')
 
 
 

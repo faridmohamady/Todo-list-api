@@ -71,7 +71,7 @@ function updateTodo(todo) {
   var isDone = !todo.data('completed');
   var updateData = { completed: isDone };
   $.ajax({
-    method: 'POST',
+    method: 'PUT',
     url: updateUrl,
     data: updateData
   }).then(function(updatedTodo) {
