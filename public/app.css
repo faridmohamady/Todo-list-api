@@ -93,9 +93,3 @@ ol {
   border: none;
   outline: 0;
 }
-
-@media screen and (max-width: 650px) {
-  .edit-todo {
-    width: 70%;
-  }
-}
